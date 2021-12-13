@@ -1,50 +1,183 @@
-.nav{
-                    display: flex;
-                    justify-content: flex-end;
-                   margin-right: 15px;
-                    height: 25px;
+.header{
 
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+ grid-template-rows:;
+}
+
+.header{
+background-color: white;
+
+}
+.nav{
+                    margin-top: 70px;
+                  
 }
 .nav a{
-                    color: rgb(19, 11, 11);
-                    font-family: sans-serif;
-                  text-decoration: none;
-                  margin-left: 15px;
-                  font-size: 20px;
+color: rgb(53, 50, 50);
+font-family: sans-serif;
+font-size: 20px;
+text-decoration: none;
+margin-left: 20px;
+text-transform: uppercase;
 
 }
-.navigation{
-       position:relative;           
-}
-.side{
-                    margin-top: 100px;
-                    margin-left: 25px;
-}
-.side h3{
-                     font-family: sans-serif;
-                     font-size: 20px;
-                     width: 50%;
-                     color: #3f3a3a;
-                     line-height: 30px;
+
+.nav img{
+max-width: 100px;
+max-height: 100px;
 }
 
-.side h1{
-    color: black;
-    font-size: 50px;
-    font-family: sans-serif;
-    font-weight: bolder; 
-    width: 440px;  
-    line-height: 72px;             
+/*header end*/
+
+.interface{
+ background-image: url(images/banner-1.webp);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding-bottom: 150px;
+ padding-top: 50px;
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
-.firstpage{
-                    background-image: url(images/banner-1.webp);
-                    background-position: center;
-                    background-size: contain;
-                    background-repeat: no-repeat;
+.text-side{
+max-width: 550px;
+margin-left: 100px;
 }
-.logo2{
-  display: flex;
+.text-side h1{
+max-width: 500px;
+ color: rgb(37, 35, 35);
+ font-family: sans-serif;
+ font-size: 49px;
+ font-weight: bolder;
 }
-.logo2 h4{
- margin-left: 15px;
+.text-side p{
+color: rgb(39, 37, 37);
+font-family: fantasy;
+font-weight: lighter;
+font-size: 18px;
+line-height: 30px;
 }
+.text-side .logo-int{
+display: flex;
+
+}
+.logo-int h2{
+color: rgb(20, 19, 19);
+margin-left: 15px;
+font-family: segoe UI;
+}
+.logo-int img{
+max-width: 50px;
+max-height: 50px;
+}
+
+/*interface end*/
+
+.center{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(500px, 1fr ));
+}
+.center .center-text h1{
+font-family: sans-serif;
+font-size: 50px;
+font-weight: bolder;
+}
+.center-text p{
+color: rgb(41, 39, 39);
+font-size: 18px;
+font-family: sans-serif;
+max-width: 600px;
+}
+.center  img{
+margin-left: 10px;
+max-width: 400px;
+align-items: center;
+}
+.middle{
+
+display: grid;
+grid-template-columns:repeat(auto-fit, minmax(400px,1fr));
+margin-top: 50px;
+}
+.middle .text2-side h1{
+font-size: 40px;
+font-family: sans-serif;
+
+}
+.middle .text2-side ul li{
+color: rgb(78, 74, 74);
+font-size: 19px;
+font-family: sans-serif;
+line-height: 50px;
+list-style: none;
+}
+.middle .img-side img{
+  max-width: 700px;
+  margin-top: 50px;
+}
+.middle .text2-side{
+margin-left: 70px;
+}
+.middle li img{
+background-color: #f5f103;
+border-radius: 70%;
+margin-right: 20px;
+
+}
+.reason{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(400px, 1fr ));
+grid-template-rows: repeat(auto-fit);
+margin-top: 100px;
+grid-row-gap:100px;
+
+}
+.reason>div{
+
+color:rgb(34, 31, 31);
+font-family: sans-serif;
+font-size: 25px;
+text-align: center;
+}
+.reason i{
+font-size: 50px;
+text-align: center;
+color: rgb(133, 119, 119);
+}
+.courses .c-txt{
+color: rgb(88, 86, 86);
+font-family: sans-serif;
+text-align: center;
+
+}
+.c-txt h1{
+font-size: 50px;
+}
+.c-txt p{
+font-size: 20px;
+line-height: 40px;
+}
+.all-course{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(400px, 1fr ));
+
+grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+grid-gap: 20px;
+}
+.all-course>div{
+ overflow: hidden;
+ max-width: 300px;
+}
+.all-course img:hover{
+transform: scale(1.5);
+transition: 1s;
+}
+.all-course h1{
+  color: #2e2d09;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+
+}
+
+  
